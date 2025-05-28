@@ -8,6 +8,7 @@
 **/Listings/
 **/Objects/
 **/*.uvguix.*
+**/*.scvd
 
 # RTE components (ignore recursively)
 **/RTE/
