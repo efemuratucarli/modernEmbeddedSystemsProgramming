@@ -1,0 +1,13 @@
+# Ignore all Debug directories recursively
+**/Debug/
+
+# Ignore all settings directories recursively
+**/settings/
+
+# Keil build artifacts (ignore recursively)
+**/Listings/
+**/Objects/
+**/*.uvguix.*
+
+# RTE components (ignore recursively)
+**/RTE/
