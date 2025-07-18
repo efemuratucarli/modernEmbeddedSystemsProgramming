@@ -14,3 +14,5 @@ The blinking effect is created by toggling the red LED pin and introducing softw
 ## LiveDemo
 
 Check out the live demo of this lesson
+
+https://github.com/user-attachments/assets/6bdebeff-961c-49dc-bfd6-912cb98d426b
