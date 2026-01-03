@@ -14,8 +14,6 @@ int8_t s8;
 int16_t s16;
 int32_t s32;
 
-	
-	
 int main() {
 	u8a = sizeof(u8a);
 	u16c = sizeof(uint16_t);
@@ -34,8 +32,9 @@ int main() {
 	u32e = (uint32_t)u16c + u16d;
 
 	u16c = 100U;
-	s32 = 10 - (int16_t)u16c;
-
+	// s32 = 10 - (int16_t)u16c; result will be incorrect when u16c > 32767 because of narrowing conversion in (int16_t)u16c (e.g. u16c = 65535 results in wraparound to -1).
+	s32 = 10 - (int32_t)u16c;
+	
 	if((int32_t)u32e > -1)
 	{
 		u8a = 1U;
